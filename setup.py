@@ -22,7 +22,8 @@ _deps = [
     "torch",
     "sentencepiece",
     "descript-audio-codec",
-    "descript-audiotools @ git+https://github.com/descriptinc/audiotools", # temporary fix as long as 0.7.4 is not published
+    #"descript-audiotools @ git+https://github.com/descriptinc/audiotools", # temporary fix as long as 0.7.4 is not published
+    "descript-audiotools @ /home/system/audiotools"
     "protobuf>=4.0.0"
 ]
 
